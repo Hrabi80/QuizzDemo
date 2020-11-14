@@ -7,6 +7,7 @@ import { QuizComponent } from './quiz/quiz.component';
 import { HttpClientModule } from '@angular/common/http';
 import { WelcomeDashboardComponent } from './welcome-dashboard/welcome-dashboard.component';
 import { AddQuizComponent } from './add-quiz/add-quiz.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AddQuizComponent } from './add-quiz/add-quiz.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

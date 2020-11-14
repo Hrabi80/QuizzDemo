@@ -82,6 +82,10 @@ export class QuizComponent implements OnInit {
     return (this.quiz.questions) ?
       this.quiz.questions.slice(this.pager.index, this.pager.index + this.pager.size) : [];
   }
+  get filteredQuestions2() {
+    return (this.quiz.phase.questions) ?
+      this.quiz.phase.questions.slice(this.pager.index, this.pager.index + this.pager.size) : [];
+  }
 
   onSelect(question: Question, option: Option) {
     if (question.questionTypeId === 1) {

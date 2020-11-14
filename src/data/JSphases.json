@@ -1,9 +1,116 @@
 {
     "id": 1,
-    "seuil": 4,
     "name": "JavaScript Quiz",
     "description": "JavaScript Quiz (Basic Multiple Choice Questions for JavaScript Developers)",
-    "phase 1":{"seuil":6,"questions":[1010,1011]},
+    "phase":{"seuil":6,"questions":[{
+        "id": 1010,
+        "name": "Which HTML tag do we use to put the JavaScript?",
+        "questionTypeId": 1,
+        
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1010,
+                "name": "<javascript>",
+                "isAnswer": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1010,
+                "name": "<script>",
+                "isAnswer": true
+            },
+            {
+                "id": 1057,
+                "questionId": 1010,
+                "name": "<js>",
+                "isAnswer": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1010,
+                "name": "None of the above",
+                "isAnswer": false
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+        "id": 1011,
+        "name": "Which built-in method calls a function for each element in the array?",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1010,
+                "name": "while()",
+                "isAnswer": false
+            },
+            {
+                "id": 1057,
+                "questionId": 1010,
+                "name": "loop",
+                "isAnswer": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1010,
+                "name": "forEach",
+                "isAnswer": true
+            },
+            {
+                "id": 1058,
+                "questionId": 1010,
+                "name": "takeUntil",
+                "isAnswer": false
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },
+    {
+        "id": 1012,
+        "name": "What is the difference between let and var?",
+        "questionTypeId": 1,
+        "options": [
+            {
+                "id": 1055,
+                "questionId": 1010,
+                "name": "let has local scope",
+                "isAnswer": true
+            },
+            {
+                "id": 1057,
+                "questionId": 1010,
+                "name": "Both are same",
+                "isAnswer": false
+            },
+            {
+                "id": 1056,
+                "questionId": 1010,
+                "name": "var is new data type",
+                "isAnswer": false
+            },
+            {
+                "id": 1058,
+                "questionId": 1010,
+                "name": "let consumes more cpu and ram",
+                "isAnswer": false
+            }
+        ],
+        "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+        }
+    },1011]},
     "phase 2": [],
     "phase 3" : [],
     

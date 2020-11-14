@@ -6,6 +6,7 @@ export class Quiz {
     name: string;
     description: string;
     config: QuizConfig;
+    phase: any;
     questions: Question[];
 
     constructor(data: any) {
